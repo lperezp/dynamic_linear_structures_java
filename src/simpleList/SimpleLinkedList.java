@@ -5,6 +5,8 @@
  */
 package simpleList;
 
+import java.util.LinkedList;
+
 /**
  *
  * @author LAB-USR-LN6377-B0303
@@ -15,7 +17,16 @@ public class SimpleLinkedList {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        LinkedList <Integer> myList = new LinkedList <Integer>();
+        myList.add(1); 
+        myList.add(2);
+        myList.addLast(3);
+        myList.addFirst(4);
+        myList.add(2, 5);
+        myList.add(6);
+        myList.add(7);
+        myList.add(1,8);
+        System.out.println(myList);
     }
     
 }
