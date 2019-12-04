@@ -19,7 +19,7 @@ public class RunDoublyCircularLinkedList {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         /* Creating object of linkedList */
-        linkedList list = new linkedList(); 
+        LinkedList list = new LinkedList(); 
         System.out.println("Lista Enlazada Doble Circular");          
         char ch;
         do    

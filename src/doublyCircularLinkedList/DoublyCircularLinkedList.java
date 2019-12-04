@@ -6,7 +6,7 @@
 package doublyCircularLinkedList;
 /**
  *
- * @author Moises
+ * @author lperezp
  */
 public class DoublyCircularLinkedList{
     protected int data;
@@ -59,14 +59,14 @@ public class DoublyCircularLinkedList{
 }
  
 /* Class linkedList */
-class linkedList
+class LinkedList
 {
     protected DoublyCircularLinkedList start;
     protected DoublyCircularLinkedList end ;
     public int size;
  
     /* Constructor */
-    public linkedList()
+    public LinkedList()
     {
         start = null;
         end = null;
