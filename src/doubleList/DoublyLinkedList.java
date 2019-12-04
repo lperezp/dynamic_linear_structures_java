@@ -8,7 +8,7 @@ package doubleList;
 
 /**
  *
- * @author Moises
+ * @author lperezp
  */
 public class DoublyLinkedList {
     
